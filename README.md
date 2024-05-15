@@ -12,17 +12,16 @@
 ### 3. synaptic package Manager
 open the package find "gnome games" mark to uninstall
 
-### 4. autoremove
-open the terminal to use this command to autoremove
-```bash
-  sudo nala autoremove
-```
-
-### 5. delete libre office
+### 4. delete libre office
 ```bash
   sudo nala remove --purge libreoffice*
   sudo nala clean
   sudo apt autoclean
+```
+
+### 5. autoremove
+open the terminal to use this command to autoremove
+```bash
   sudo nala autoremove
 ```
 
