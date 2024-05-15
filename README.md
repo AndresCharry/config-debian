@@ -3,7 +3,7 @@
 - go to keybord
 - go to keybord shortcuts
 - go to custom shortcuts
-- +
+- add
 - name = Terminal
 - command = gnome-terminal
 - shortcuts = Ctrl + Alt + T 
