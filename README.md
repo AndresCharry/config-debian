@@ -1,36 +1,45 @@
-
 # initial config for debian
+### 1. custom shortcuts
+- go to keybord
+- go to keybord shortcuts
+- go to custom shortcuts
+- +
+- name = Terminal
+- command = gnome-terminal
+- shortcuts = Ctrl + Alt + T 
 
-### 1. install nala
+### 2. install nala
 ```bash
   sudo apt install nala
-```
-### 2. update system
+``` 
+
+### 3. update system
 ```bash
   sudo nala update
 ```
-### 3. synaptic package Manager
+
+### 4. synaptic package Manager
 open the package find "gnome games" mark to uninstall
 
-### 4. delete libre office
+### 5. delete libre office
 ```bash
   sudo nala remove --purge libreoffice*
   sudo nala clean
   sudo apt autoclean
 ```
 
-### 5. autoremove
+### 6. autoremove
 open the terminal to use this command to autoremove
 ```bash
   sudo nala autoremove
 ```
 
-### 6. install neofetch and htop
+### 7. install neofetch and htop
 ```bash
   sudo nala install neofetch && htop
 ```
 
-### 7. install flatpak
+### 8. install flatpak
 flatpak
 ```bash
   sudo nala flatpak
@@ -44,5 +53,5 @@ flathub repository
   flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo 
 ```
 
-### 8. install apps with flatpak
+### 9. install apps with flatpak
 go to the link and select the apps you want to install https://flathub.org/
